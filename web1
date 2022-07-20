@@ -1,0 +1,130 @@
+HTML 
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+        <meta name="view port" content="width=device-width, intial-scale=1.0">
+         
+        <!--Font awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+         <!-- Bootstrap CSS only -->
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+         rel="stylesheet" 
+         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+         crossorigin="anonymous">
+         <!-- our css-->
+         <link href="bootstrap.css" rel="stylesheet">
+
+         
+
+        <title>Project</title>
+    </head>
+    <body>
+        <!--Nav bar-->
+        <nav class="navbar navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">sharpay</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Disabled</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div class="container"> 
+        <!-- Search bar -->
+        <section class="mt-5"> 
+          <div class="row justify-content-center">
+            <div class="col-md-6"> 
+            <div class="input-group mb-3"> 
+              
+           
+        <div class="input-group mb-3 shadow">
+          <input type="text" class="form-control" placeholder="Search task" aria-label="Recipient's username" aria-describedby="basic-addon2">
+          <span class="input-group-text" id="basic-addon2"> <i class="fa-solid fa-magnifying-glass"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+      </section>
+      <section>
+        <div class="row">
+        <div class="col-md-6 col-lg-4"> 
+        <div class="card text-center">
+          <div class="card-header d-flex justify-content-center-end gap-2">
+            <button type="button" class="btn btn-outline-success"><i class="fa-solid fa-pencil"></i>
+            </button>
+<button type="button" class="btn btn-outline-danger"><i class="fa-solid fa-trash-can"></i>
+</button>
+             
+          </div>
+          <img src="https://media.istockphoto.com/photos/amber-fort-and-maota-lake-jaipur-rajasthan-india-picture-id1135820309?k=20&m=1135820309&s=612x612&w=0&h=HTvXNokiDKSuL_D_jcEX8nwVMy5hs0zXBJ0E_zI5lxg=" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <span class="badge bg-primary">Amazing</span>
+          </div>
+          <div class="card-footer text-muted">
+             <button type="button" class="btn btn-outline-primary float-end">Open Task</button>
+          </div>
+        </div>
+      </div>
+    </div>
+      </section>
+      </div>
+        
+        <!-- JavaScript Bundle with Popper -->
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" 
+          crossorigin="anonymous"></script>
+
+
+    </body>
+
+    </html>
+
+
+CSS
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Box model*/
+}
+
+body{
+    font-family: "poppins",sans-serif;
+    background-color: #ebf2ff;
+}
+a{
+    color: blue;
+}
